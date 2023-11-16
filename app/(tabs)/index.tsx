@@ -14,7 +14,7 @@ export default function TabOneScreen() {
                 </View>
 
                 <View className={"bg-red-500 p-4 border-2 border-neutral-200 rounded-3xl"}>
-                    <Text className={"text-2xl font-bold mb-4 text-center"}>I should a bg-red-500,
+                    <Text className={"text-2xl font-bold mb-4 text-center"}>I should have bg-red-500,
                         but nothing happens 😥
                     </Text>
                 </View>

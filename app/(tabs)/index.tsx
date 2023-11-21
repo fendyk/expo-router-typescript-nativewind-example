@@ -48,7 +48,10 @@ export default function TabOneScreen() {
                 <Text className={"text-4xl py-8"}>Texts & Colours</Text>
                 <Text className={"text-4xl"}>I am 4xl</Text>
                 <Text className={"text-5xl text-red-500"}>I should be 5xl & red-500</Text>
+                <Text className={"text-5xl text-orange-500"}>I should be 5xl & orange-500</Text>
                 <Text className={"text-[20px]"}>I am 20px arbitrary</Text>
+                <Text className={"underline text-lg"}>I have a underline</Text>
+                <Text className={"italic text-lg"}>I like pizza! (italic)</Text>
             </View>
             <View className="items-center justify-center px-4">
                 <Text className={"text-4xl py-8"}>Dimensions (Width & Height)</Text>

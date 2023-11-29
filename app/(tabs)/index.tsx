@@ -1,7 +1,6 @@
-import EditScreenInfo from '../../components/EditScreenInfo';
-import {Text, View} from '../../components/Themed';
 import PagerView from "react-native-pager-view";
 import {vars} from "nativewind";
+import {Text, View} from "react-native"
 
 export default function TabOneScreen() {
 

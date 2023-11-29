@@ -5,7 +5,7 @@ import {Text, View} from "react-native"
 export default function TabOneScreen() {
 
     const userTheme = vars({
-        '--color-primary': '255 0 0'
+        '--primary-color': 'red'
     });
 
     return (
@@ -58,17 +58,18 @@ export default function TabOneScreen() {
                     <Text className={"text-xs"}>w-20 & h-20</Text>
                 </View>
                 <View className={"border w-[200px] h-[200px] bg-red-500 justify-center items-center"}>
-                    <Text className={"text-xs"}>w-[200px & h-[200px] & bg-red-500</Text>
+                    <Text className={"text-lg"}>w-[200px] & h-[200px] & bg-red-500</Text>
                 </View>
                 <View className={"border w-64 h-64 bg-purple-500 rounded-full justify-center items-center"}>
-                    <Text className={"text-xs"}>w-64 & h-64 & bg-purple-500</Text>
+                    <Text className={"text-lg"}>w-64 & h-64 & bg-purple-500</Text>
                 </View>
             </View>
             <View className="items-center justify-center px-4">
                 <Text className={"text-4xl py-8"}>Variables</Text>
-                <Text className={"text-lg text-[--color-primary]"}>This should be a primary colour</Text>
+                <Text className={"text-lg text-primary"}>This should be a primary colour</Text>
+                <Text className={"text-lg text-[--primary-color]"}>This should be a primary colour</Text>
                 <View className={"border-2 w-full"}>
-                    <Text className={"text-base bg-[--color-primary] text-center"}>I should have a primary background</Text>
+                    <Text className={"text-base bg-[--primary-color] text-center"}>I should have a primary background</Text>
                 </View>
             </View>
         </PagerView>

@@ -22,6 +22,7 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
 
+  // Verify NativeWind installation
   verifyInstallation();
 
   const [loaded, error] = useFonts({
